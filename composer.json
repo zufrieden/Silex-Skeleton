@@ -1,5 +1,5 @@
 {
-    "name": "fabpot/silex-skeleton",
+    "name": "zufrieden/silex-skeleton",
     "description": "A pre-configured skeleton for the Silex microframework",
     "license": "MIT",
     "type": "project",
@@ -20,7 +20,9 @@
         "symfony/security": "~2.3",
         "symfony/translation": "~2.3",
         "symfony/twig-bridge": "~2.3",
-        "symfony/validator": "~2.3"
+        "symfony/validator": "~2.3",
+        "twig/twig": "1.*",
+        "twitter/bootstrap": "dev-master"
     },
     "autoload": {
         "psr-0": { "": "src/" }
